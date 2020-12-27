@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>paint2.0</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="toolbox">
+        <button onclick="Pen()">pen</button>
+        <button onclick="eraser()">eraser</button>
+        <button onclick="clearAll()">clearAll</button>
+        <button onclick="drawPolygon()">polygon</button>
+        <input type="color" id="colorinp">
+
+    </div>
+    <div class="range"><input type="range" id="rangeinp" min="1"></div>
+    <canvas id="canvas"></canvas>
+
+</body>
+<script src="script.js"></script>
+
+</html>
